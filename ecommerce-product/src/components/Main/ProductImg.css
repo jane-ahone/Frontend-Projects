@@ -1,0 +1,20 @@
+.productimgMain {
+  transform: scale(0.8) translate(0px, -7rem);
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: min-content 0.3fr;
+  grid-template-columns: repeat(4, 0.2fr);
+  grid-auto-rows: min-content;
+}
+.productimgMain img {
+  border-radius: 7%;
+  cursor: pointer;
+}
+.productimgMain img:hover:not(:first-child) {
+  opacity: 0.4;
+  border: 2px solid hsl(26, 100%, 55%);
+}
+
+.productimgMain .mainImage {
+  grid-column: 1 / -1;
+}

@@ -1,0 +1,11 @@
+svg path:hover {
+  fill: black;
+}
+svg path:active {
+  fill: black;
+}
+
+.avatar-icon:hover {
+  border: 2px solid hsl(26, 100%, 55%);
+  border-radius: 50%;
+}

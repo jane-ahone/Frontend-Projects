@@ -1,0 +1,28 @@
+.navBarMain {
+  position: relative;
+}
+.navBarMain > *:not(:first-child) {
+  margin-left: 2rem;
+  font-weight: 400;
+}
+.navBarMain > *:hover:not(.cartMain) {
+  color: hsl(26, 100%, 55%);
+  font-weight: 600;
+  cursor: pointer;
+}
+svg path:hover {
+  fill: black;
+}
+svg path:active {
+  fill: black;
+}
+
+svg {
+  position: absolute;
+  right: 0;
+}
+.cartMain {
+  position: absolute;
+  right: 0;
+  margin-top: 2rem;
+}

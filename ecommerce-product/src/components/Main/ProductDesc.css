@@ -1,0 +1,64 @@
+.company-name {
+  font-weight: 700;
+  color: hsl(26, 100%, 55%);
+  letter-spacing: 0.5px;
+}
+.product-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.product-desc {
+  font-size: 1.2rem;
+  color: rgba(105, 105, 105, 0.537);
+}
+.price-details {
+  display: grid;
+  grid-template-rows: repeat(2, max-content);
+  grid-template-columns: repeat(2, min-content);
+}
+
+.minus-btn,
+.plus-btn,
+.prod-count-btn {
+  border: none;
+  background-color: hsl(223, 64%, 98%);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  color: hsla(26, 100%, 55%, 0.801);
+}
+.minus-btn {
+  border-radius: 0.7rem 0 0 0.7rem;
+}
+.plus-btn {
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+.minus-btn,
+.plus-btn:hover {
+  color: hsla(25, 100%, 79%, 0.516);
+  cursor: pointer;
+}
+.prod-count-btn {
+  color: black;
+}
+.add2cart-btn {
+  margin-left: 2rem;
+  background-color: hsl(26, 100%, 55%);
+  padding: 0.5rem 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  position: relative;
+}
+.add2cart-btn svg {
+  position: absolute;
+  left: 1rem;
+}
+.add2cart-btn:hover {
+  background-color: hsl(25, 100%, 79%);
+}
+.add2cart-btn:active {
+  background-color: hsl(25, 62%, 31%);
+}
